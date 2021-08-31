@@ -62,7 +62,7 @@ Hopefully you already have a micro-SD card with the working Raspbian image on it
 
 On your dev machine, mount the SD card and delete any files on it that begin with the word _kernel_. A more cautious approach may be to simply move these off the SD card into a backup folder on your local hard drive. You can then restore these easily if needed.
 
-We'll now copy our _kernel8.img_ onto the SD card. This name is meaningful and it signals to the RPi4 that we want it to boot in 64-bit mode. We can also force this by setting `arm_64bit` to a non-zero value in [config.txt](https://www.raspberrypi.org/documentation/configuration/config-txt/boot.md). Booting our OS into 64-bit mode will mean that we can take advantage of the larger memory capacity available to the RPi4.
+We'll now copy our _kernel8.img_ onto the SD card. This name is meaningful and it signals to the RPi4 that we want it to boot in 64-bit mode. We can also force this by setting `arm_64bit` to a non-zero value in [config.txt](https://www.raspberrypi.org/documentation/computers/config_txt.html#boot-options). Booting our OS into 64-bit mode will mean that we can take advantage of the larger memory capacity available to the RPi4.
 
 Booting
 -------
